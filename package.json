@@ -1,0 +1,24 @@
+{
+  "name": "andeng-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "windicss": "^3.4.2"
+  },
+  "devDependencies": {
+    "vite-plugin-windicss": "^1.6.1",
+    "@njleonzhang/postcss-px-to-rem": "^1.0.1",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "ant-design-vue": "^2.2.8",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.46.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
