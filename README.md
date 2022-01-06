@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-01-05 16:24:42
- * @LastEditTime: 2022-01-06 15:58:57
+ * @LastEditTime: 2022-01-06 16:09:13
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -17,6 +17,8 @@ utils 中 init 函数,是设置 html 的 font-size 值用的
 `@njleonzhang/postcss-px-to-rem and postcss-pxtorem` 使用这两个包可以将项目中的 px 转换为 rem 单位.
 
 再 项目的主目录下面 增加一个 `.postcssrc.js` 文件.
+
+其中 **widthOfDesignLayout** 一定记得改成设计稿的宽度,或者就以机型的宽度为准, 一般我会以设备机型的宽度为准.
 
 文件的具体内容自己看吧.
 
